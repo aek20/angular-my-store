@@ -1,0 +1,36 @@
+.container{
+margin-left:35%;
+margin-top: 5%;
+
+}
+.cart{
+ 
+    padding-top:15%;
+    margin-top:3%;
+
+width: 250px;
+height:400px;
+padding-bottom: 30px;
+
+    display: inline-block;
+}
+form{ 
+    margin-left: 5%; display: inline-block;
+    margin-top: -16%;
+}
+.card-img-top{
+    margin-top: -60%;
+    width: 200px;
+    height: 250px;
+    border-radius: 15px;
+    
+}
+.user-form{
+    position:static;
+    float: right;
+    margin-top: 14%;
+    margin-right: 20%;
+}
+.container{
+    margin-left: 24%;
+}

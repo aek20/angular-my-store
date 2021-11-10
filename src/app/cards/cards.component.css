@@ -1,0 +1,27 @@
+.card{margin-left:30px}
+.col{
+margin-top:5%;
+}
+.card-title{
+    color:red;
+font-size: 20px;
+text-align: center;
+margin-right:10%
+}
+.price{
+      color:red;
+font-size: 20px;
+text-align: center; 
+margin-right: 10%; 
+}
+.btn-primary{
+    background-color:#242ee6;
+margin-left:33%;
+margin-top:7%;
+border-radius:6px;
+color: white;
+}
+.dropdown{
+   margin-left:24%;
+}
+.card-img-top{ border-radius: 9px;}

@@ -1,0 +1,29 @@
+<div class="container">
+    <div class="row">
+     <!-- first column -->
+        <div class="col" *ngFor="let data of json">
+<div class="card" style="width: 18rem;">
+    <img src={{data.url}} class="card-img-top" alt="wewewewewew">
+  
+
+
+
+    </div><div class="card-body">
+        <h1 class="card-title">{{data.name}}</h1>
+    </div><div class="card-body">
+        <h1 class="price">{{data.price}}</h1>
+    </div>
+<div class="dropdown">
+   
+
+</div>
+<input class="btn btn-primary"  type="button" value="Add to cart" routerLink='/cart' (click)="addNewItem({data})" >
+</div></div>
+<!-- //second column -->
+
+        <!-- third column -->
+
+    </div>
+
+
+    

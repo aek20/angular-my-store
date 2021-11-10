@@ -1,0 +1,40 @@
+<form class="user-form">
+    <div class="mb-3">
+        <label for="exampleInputEmail1" class="form-label">Full name</label>
+        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+      
+    </div>
+    <div class="mb-3">
+        <label  class="">Address</label>
+        <input  class="form-control" id="">
+    </div>
+  
+    <button type="submit"  routerLink="/success" class="btn btn-primary">Submit</button>
+</form>
+<div class="container">
+
+  
+    <div *ngFor="let data of items">  <div class="cart" >
+        <img src="{{data.url}}" class="card-img-top" alt="wewewewewew">
+    </div>
+    <form>
+        <div class="mb-3">
+         
+        </div>
+        <div class="mb-3">
+<h1 class="data-name">{{data.name}}</h1>
+<p>{{data.price}}</p>
+    
+        </div>
+        <div class="mb-3 form-check">
+        
+        </div>
+        <button  type="submit" class="btn btn-primary" routerLink='/products'>Submit</button><br>
+       
+    </form>
+   
+</div>
+<h1>total price {{getTotalPrice()}}</h1>
+<button routerLink='/' style="margin-top:10%">back to main page</button>
+</div>
+
